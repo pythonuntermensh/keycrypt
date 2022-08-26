@@ -18,7 +18,7 @@ def decrypt(mazafaka: int, encrypted: int) -> bytes:
 
 
 if __name__ == "__main__":
-    picture: str = "U999_2_881x513.jpeg"
+    picture: str = "test.jpeg"
     with open(picture, 'rb') as f:
         original = f.read()
         key1, key2 = encrypt(original)
